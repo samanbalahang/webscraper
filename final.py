@@ -60,11 +60,8 @@ if "$" not in file_template:
     raise ValueError("file_template must contain '$'.")
 
 MAX_RETRIES = 3
-
 PAGE_TIMEOUT = 30
-
 RETRY_WAIT = 5
-
 OUTPUT_DIRECTORY = os.path.dirname(__file__)
 
 
